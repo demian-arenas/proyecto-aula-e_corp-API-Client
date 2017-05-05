@@ -1,0 +1,28 @@
+{
+  "name": "e-corp-client",
+  "version": "1.0.0",
+  "description": "Proyecto Aula equipo E-Corp API Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demian-arenas/proyecto-aula-e_corp-API-Client.git"
+  },
+  "author": "Demian Arenas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demian-arenas/proyecto-aula-e_corp-API-Client/issues"
+  },
+  "homepage": "https://github.com/demian-arenas/proyecto-aula-e_corp-API-Client#readme",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-eslint": "^6.0.5",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "request-promise": "^3.0.0"
+  }
+}
